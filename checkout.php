@@ -49,8 +49,8 @@ $paypal_id = 'business@shopping.com'; //Business Email
         <input type="hidden" name="currency_code" value="USD">
         
         <!-- Specify URLs -->
-        <input type='hidden' name='cancel_return' value='http://localhost/shopping/cancel.php'>
-		<input type='hidden' name='return' value='http://localhost/shopping/success.php'>
+        <input type='hidden' name='cancel_return' value='http://localhost/shopping/shopping/cancel.php'>
+		<input type='hidden' name='return' value='http://localhost/shopping/shopping/success.php'>
 
         
         <!-- Display the payment button. -->

@@ -28,7 +28,7 @@ if (mysqli_num_rows($get_cart_res) < 1) {
     <th>Action</th>
 
     </tr>
-	<form method="post" action="checkout.php">
+	<form method="post" action="products.php">
 END_OF_TEXT;
 	$total=0;
     while ($cart_info = mysqli_fetch_array($get_cart_res)) {
